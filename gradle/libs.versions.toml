@@ -1,0 +1,78 @@
+[versions]
+agp = "8.2.0"
+kotlin = "1.9.22"
+googleDevtoolsKSP = "1.8.10-1.0.9"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.7.0"
+activityCompose = "1.8.2"
+composeBom = "2024.02.00"
+splashScreen = "1.0.1"
+navVersion = "2.7.7"
+daggerHilt = "2.48"
+hiltNav = "1.2.0"
+retrofit = "2.10.0"
+googleJson = "2.10.1"
+coilCompose = "2.5.0"
+datastore = "1.0.0"
+composeFoudnation = "1.6.3"
+paging3 = "3.2.1"
+room = "2.6.1"
+roomKtx = "2.6.1"
+kotlinGradlePluginVersion = "1.9.23"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2024.02.02" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+androidx-pagging3-runtime = {group = "androidx.paging", name = "paging-runtime", version.ref = "paging3" }
+androidx-pagging3-compose = {group = "androidx.paging", name = "paging-compose", version.ref = "paging3" }
+
+androidx-room-runtime = {group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-compiler = {group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-room-ktx = {group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+
+
+androidx-splashScreen = {group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreen"}
+androidx-navigationCompose = {group = "androidx.navigation", name = "navigation-compose", version.ref = "navVersion" }
+androidx-hilt = {group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNav" }
+androidx-datastore = {group = "androidx.datastore", name="datastore-preferences", version.ref = "datastore" }
+androidx-compose-founcation = {group = "androidx.compose.foundation", name = "foundation", version.ref = "composeFoudnation" }
+
+google-daggerHilt = {group = "com.google.dagger" ,name ="hilt-android", version.ref = "daggerHilt"}
+google-daggerHilt-compiler = {group = "com.google.dagger" ,name ="hilt-android-compiler", version.ref = "daggerHilt"}
+google-accompanist = {group = "com.google.accompanist", name ="accompanist-systemuicontroller", version = "0.35.0-alpha" }
+
+retrofit2-retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit2-converter-gson = {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+gson = {group = "com.google.code.gson", name = "gson", version.ref = "googleJson" }
+
+io-coil-compose = {group = "io.coil-kt", name = "coil-compose", version = "2.6.0" }
+
+
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrainsKotlinKapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+
+daggerHilt = {id = "com.google.dagger.hilt.android", version.ref = "daggerHilt"}
+googleDevtoolsKSP = { id = "com.google.devtools.ksp", version.ref = "googleDevtoolsKSP" }
+jetbrains-Kotlin-Parcelize = {id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin"}
+
+
